@@ -1,8 +1,3 @@
 "# PixelRunner" 
 
-
-audio is not coded in this branch
-
-
-tutorial link: https://youtu.be/AY9MnQ4x3zk
-till 3:09:00
+This is going to have full audio inside and a sprite class method (oop in Pygame)

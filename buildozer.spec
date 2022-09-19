@@ -4,10 +4,10 @@
 title = PixelRunner
 
 # (str) Package name
-package.name = pgame
+package.name = PixelRunner
 
 # (str) Package domain (needed for android/ios packaging)
-package.domain = org.test
+package.domain = ir.rootamin
 
 # (str) Source code where the main.py live
 source.dir = .

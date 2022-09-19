@@ -162,7 +162,7 @@ pygame.display.set_caption("Runner")
 
 path = ''
 if platform() == "android":
-    path = "/data/data/org.test.pgame/files/app"
+    path = "/data/data/ir.rootamin.PixelRunner/files/app"
 elif platform() == 'linux':
     path = './'
 
@@ -190,7 +190,7 @@ ground_surface = pygame.image.load(path + 'graphics/ground.png').convert()
 
 # Snail
 snail_frame_1 = pygame.image.load(path + 'graphics/snail/snail1.png').convert_alpha()
-snail_frame_2 = pygame.image.load('graphics/snail/snail2.png').convert_alpha()
+snail_frame_2 = pygame.image.load(path + 'graphics/snail/snail2.png').convert_alpha()
 snail_frames = [snail_frame_1, snail_frame_2]
 snail_frame_index = 0
 snail_surf = snail_frames[snail_frame_index]
@@ -220,10 +220,10 @@ player_stand = pygame.image.load(path + 'graphics/Player/player_stand.png').conv
 player_stand = pygame.transform.rotozoom(player_stand, 0, 2)
 player_stand_rect = player_stand.get_rect(center=(400, 200))
 
-game_name = test_font.render(path + "Pixel Runner", False, (111, 196, 169))
+game_name = test_font.render("Pixel Runner", False, (111, 196, 169))
 game_name_rect = game_name.get_rect(center=(400, 70))
 
-game_message = test_font.render(path + 'Press space to run.', False, (111, 196, 169))
+game_message = test_font.render('Press space to run.', False, (111, 196, 169))
 game_message_rect = game_message.get_rect(center=(400, 330))
 
 # timer

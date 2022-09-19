@@ -1,13 +1,13 @@
 [app]
 
 # (str) Title of your application
-title = PixelRunner
+title = pgame
 
 # (str) Package name
-package.name = PixelRunner
+package.name = pgame
 
 # (str) Package domain (needed for android/ios packaging)
-package.domain = ir.rootamin
+package.domain = org.test
 
 # (str) Source code where the main.py live
 source.dir = .
@@ -29,7 +29,7 @@ source.include_exts = py,png,jpg,kv,atlas,mp3,wav
 #source.exclude_patterns = license,images/*/*.jpg
 
 # (str) Application versioning (method 1)
-version = 0.1
+version = 1.0
 
 # (str) Application versioning (method 2)
 # version.regex = __version__ = ['"](.*)['"]
@@ -94,6 +94,7 @@ fullscreen = 0
 
 # (list) Permissions
 #android.permissions = INTERNET
+
 
 # (list) features (adds uses-feature -tags to manifest)
 #android.features = android.hardware.usb.host

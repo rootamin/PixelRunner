@@ -1,7 +1,7 @@
 [app]
 
 # (str) Title of your application
-title = Pgame APK
+title = PixelRunner
 
 # (str) Package name
 package.name = pgame
